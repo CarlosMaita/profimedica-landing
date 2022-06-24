@@ -1,0 +1,11 @@
+Corporacion: Rintegrate
+Creado por: Carlos Maita 
+Cliente: All digital content
+
+Descripcion: 
+Proyecto Profimedica Dental se trata de dos landing page para vender equipos odontologicos de las marcas Fotona y Trilase & Unilase.
+Se tiene una lading para pacientes, y otra landing para Odontologos.
+
+Comandos Local
+
+php -S localhost:8000 -t ./odontologos/
