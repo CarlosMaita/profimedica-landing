@@ -6,9 +6,6 @@
       <!-- agregar favicon -->
     <link rel="icon" type="image/png" href="../../assets/img/favicon.png" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.4.0/lightgallery.min.js"
-        integrity="sha512-76iVPLEHY5kfZFCmHBQHLkcE4I2r+gK/I/HLYcm3iCuRO/hopAtyO3AFPCZy5B4347wQ7NftStUBVk/cR21MSw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- or link to the CDN -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../style.css">
@@ -20,6 +17,12 @@
     <script src="../assets/lib/owlcarousel/owl.carousel.min.js"></script>
     <!-- animaciones -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- precargar imagenes de productos  -->
+    <link rel="preload" href="../assets/img/lightwalker.png" as="image">
+    <link rel="preload" href="../assets/img/skypulse.png" as="image">
+    <link rel="preload" href="../assets/img/trilase.png" as="image">
+    <link rel="preload" href="../assets/img/unilase.png" as="image">
 
     <title>Profimédica para Odontólogos</title>
 </head>
@@ -219,51 +222,51 @@
             <img class="mx-auto" src="../assets/img/barra-purpura.svg" alt="">
           </div>
             <!-- Set up your HTML -->
-          <div class="owl-carousel xl:w-1/2 xl:mx-auto">
+          <div class="owl-carousel xl:w-full xl:mx-auto">
             <!-- aplicacion 1 -->
             <div class="px-5">
               <img src="../assets/img/aplicaciones/aplicacion-1.png" alt="aplicacion">
-              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl md:py-5 md:text-3xl text-white font-bold">Estética</p>
+              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Estética</p>
             </div>
             <!-- aplicacion 2 -->
             <div class="px-5">
               <img src="../assets/img/aplicaciones/aplicacion-2.png" alt="aplicacion">
-              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Cirugía</p>
+              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Cirugía Oral</p>
             </div>
             <!-- aplicaiones 3 -->
             <div class="px-5">
               <img src="../assets/img/aplicaciones/aplicacion-3.png" alt="aplicacion">
-              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Ortodoncia</p>
+              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Desensibilizacion</p>
             </div>
             <!-- aplicaciones 4 -->
             <div class="px-5">
               <img src="../assets/img/aplicaciones/aplicacion-4.png" alt="aplicacion">
-              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Endodoncia</p>
+              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Periodoncia</p>
             </div>
             <!-- aplicaciones 5 -->
             <div class="px-5">
               <img src="../assets/img/aplicaciones/aplicacion-5.png" alt="aplicacion">
-              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Periodoncia</p>
+              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Implantologia</p>
             </div>
             <!-- aplicaciones 6 -->
             <div class="px-5">
               <img src="../assets/img/aplicaciones/aplicacion-6.png" alt="aplicacion">
-              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Ortodoncia</p>
+              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Pediatría</p>
             </div>
             <!-- aplicaciones 7 -->
             <div class="px-5">
               <img src="../assets/img/aplicaciones/aplicacion-7.png" alt="aplicacion">
-              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Endodoncia</p>
+              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Fotobiomodulación</p>
             </div>
             <!-- aplicaciones 8 -->
             <div class="px-5">
               <img src="../assets/img/aplicaciones/aplicacion-8.png" alt="aplicacion">
-              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Periodoncia</p>
+              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Endodoncia</p>
             </div>
             <!-- aplicaciones 9 -->
             <div class="px-5">
               <img src="../assets/img/aplicaciones/aplicacion-9.png" alt="aplicacion">
-              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Ortodoncia</p>
+              <p class="text-center text-base bg-[#AC4780] py-2 md:py-5 md:text-3xl text-white font-bold">Blanquiamiento Dentral</p>
             </div>
           </div>
         </div>
@@ -383,15 +386,20 @@
     <script>
       $(document).ready(function(){
         $(".owl-carousel").owlCarousel({
-          items: 1,
-          loop:true,
-          autoplay:true,
-          autoplayTimeout: 2000,
-          autoplayHoverPause: true,
+         0:{
+           items: 1,
+           loop:true,
+           autoplay:true,
+           autoplayTimeout: 2000,
+           autoplayHoverPause: true,
+         },
+         1024 :{
+          items: 3,
+         }
         });
       });
     </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
