@@ -27,7 +27,7 @@
 <main class="container-fluid overflow-hidden">
     <!-- mostrar el video  -->
     <section class="flex  h-screen z-10 w-full" id="main">      <!-- The video -->
-      <video autoplay muted loop id="myVideo"
+      <video autoplay muted loop  preload="none" id="myVideo"
         class="h-auto object-cover w-full min-w-full min-h-full -z-10 xl:opacity-40">
         <source src="../assets/videos/video-home.mp4" type="video/mp4">
       </video>
@@ -56,10 +56,10 @@
               <h2 class="text-center text-3xl md:text-4xl  font-bold">LightWalker</h2>
               <img class="mx-auto" src="../assets/img/barra-purpura.svg" alt="barra">
               <p class="text-base md:text-2xl font-medium text-center ">
-                El más completo. Su diseño e ingeniería lo <br>
-                califican como el láser de Erbium de corte <br>
-                más rápido del mundo. Incluso supera a las <br>
-                fresas rotativas en términos de velocidad y <br>
+                El más completo. Su diseño e ingeniería lo <br class="hidden md:block">
+                califican como el láser de Erbium de corte <br class="hidden md:block">
+                más rápido del mundo. Incluso supera a las <br class="hidden md:block">
+                fresas rotativas en términos de velocidad y <br class="hidden md:block">
                 precisión. 
               </p>
           </div>
@@ -387,6 +387,7 @@
           loop:true,
           autoplay:true,
           autoplayTimeout: 2000,
+          autoplayHoverPause: true,
         });
       });
     </script>
