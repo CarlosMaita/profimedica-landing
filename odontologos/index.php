@@ -16,7 +16,7 @@
     <!-- owl carousel js -->
     <script src="../assets/lib/owlcarousel/owl.carousel.min.js"></script>
     <!-- animaciones -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
 
     <!-- precargar imagenes de productos  -->
     <link rel="preload" href="../assets/img/lightwalker.png" as="image">
