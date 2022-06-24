@@ -16,9 +16,9 @@
     <!-- owl carousel js -->
     <script src="../assets/lib/owlcarousel/owl.carousel.min.js"></script>
     <!-- animaciones -->
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- precargar imagenes de productos  -->
+    <!-- precargar imagenes  -->
     <link rel="preload" href="../assets/img/lightwalker.png" as="image">
     <link rel="preload" href="../assets/img/skypulse.png" as="image">
     <link rel="preload" href="../assets/img/trilase.png" as="image">
@@ -53,7 +53,7 @@
         </div>
         <div class="xl:flex xl:align-middle items-center">
           <div class="block text-center xl:w-1/2">
-              <img class="w-full" src="../assets/img/lightwalker.png" alt="lightwalker" data-aos="fade-right">
+              <img class="w-full" src="../assets/img/lightwalker.png" alt="lightwalker" >
           </div>
           <div class="block px-8 space-y-5 md:pb-10 xl:w-1/2">
               <h2 class="text-center text-3xl md:text-4xl  font-bold">LightWalker</h2>
@@ -70,7 +70,7 @@
 
         <div class="xl:flex xl:align-middle items-center xl:flex-row-reverse">
           <div class="block text-center xl:w-1/2">
-              <img class="w-full" src="../assets/img/skypulse.png" alt="skypulse" data-aos="fade-left">
+              <img class="w-full" src="../assets/img/skypulse.png" alt="skypulse">
           </div>
           <div class="block px-8 space-y-5 md:pb-10 xl:w-1/2">
               <h2 class="text-center text-3xl md:text-4xl font-bold">SkyPulse®</h2>
@@ -115,7 +115,7 @@
         </div>
         <div class="xl:flex xl:align-middle items-center">
           <div class="block text-center xl:w-1/2">
-              <img class="w-full" src="../assets/img/trilase.png" alt="trilase" data-aos="fade-right">
+              <img class="w-full" src="../assets/img/trilase.png" alt="trilase" >
           </div>
           <div class="block px-8 space-y-5 text-center xl:w-1/2">
               <h2 class="text-3xl md:text-4xl font-bold">Trilase</h2>
@@ -132,7 +132,7 @@
 
         <div class="xl:flex xl:align-middle items-center xl:flex-row-reverse" >
           <div class="block text-center xl:w-1/2">
-              <img class="w-full" src="../assets/img/unilase.png" alt="unilase" data-aos="fade-left">
+              <img class="w-full" src="../assets/img/unilase.png" alt="unilase">
           </div>
           <div class="block px-8 space-y-5 text-center md:pb-10 xl:w-1/2">
               <h2 class=" text-3xl md:text-4xl font-bold">Unilase</h2>
@@ -399,10 +399,10 @@
         });
       });
     </script>
-  <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
-  </script> -->
+  </script>
     
 </body>
 </html>
