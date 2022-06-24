@@ -24,7 +24,7 @@
     <title>Profimédica para Odontólogos</title>
 </head>
 <body>
-<main class="container-fluid overflow-hidden w-screen">
+<main class="container-fluid overflow-hidden">
     <!-- mostrar el video  -->
     <section class="flex  h-screen z-10 w-full" id="main">      <!-- The video -->
       <video autoplay muted loop id="myVideo"
