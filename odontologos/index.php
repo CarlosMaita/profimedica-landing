@@ -18,12 +18,6 @@
     <!-- animaciones -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- precargar imagenes  -->
-    <link rel="preload" href="../assets/img/lightwalker.png" as="image">
-    <link rel="preload" href="../assets/img/skypulse.png" as="image">
-    <link rel="preload" href="../assets/img/trilase.png" as="image">
-    <link rel="preload" href="../assets/img/unilase.png" as="image">
-
     <title>Profimédica para Odontólogos</title>
 </head>
 <body>
