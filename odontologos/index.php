@@ -145,7 +145,7 @@
     <!-- fin de productos fotona -->
     <!-- tipos de laser -->
     <section class="py-10 xl:pb-20">
-        <h2 class="text-center font-bold text-3xl md:text-4xl pt-10">Tipos de laser</h2>
+        <h2 class="text-center font-bold text-3xl md:text-4xl pt-10">Tipos de láser</h2>
         <div class=" xl:flex xl:justify-around xl:items-center">
           <!-- laser azul -->
           <div class="text-center space-y-5 px-10 pt-10">
@@ -274,8 +274,8 @@
           </div>
 
           <!-- mostrar video -->
-          <video class="px-5 xl:w-1/2 xl:mx-auto" controls id="myVideo2"
-        class="h-auto object-cover w-full min-w-full min-h-full -z-10 xl:opacity-40">
+          <video class="px-5 xl:w-1/2 xl:mx-auto" controls autoplay id="myVideo2"
+              class="h-auto object-cover w-full min-w-full min-h-full -z-10 xl:opacity-40">
             <source src="../assets/videos/why-doctors.mp4" type="video/mp4">
           </video>
 
